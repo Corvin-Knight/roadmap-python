@@ -13,27 +13,27 @@ for tool in tools:
 
 
 
-    # ================================
-    # LESSON 1: VARIABLES & DATA TYPES
-    # ================================
+    # # ================================
+    # # LESSON 1: VARIABLES & DATA TYPES
+    # # ================================
 
-    # String (Text)
-    coder_name = "Solo"
+    # # String (Text)
+    # coder_name = "Solo"
 
-    # Integer (Whole Numbers)
-    logic_points = 10
+    # # Integer (Whole Numbers)
+    # logic_points = 10
 
-    # Float (Decimal)
-    accuracy_percent = 98.5
+    # # Float (Decimal)
+    # accuracy_percent = 98.5
 
-    # Boolean (True/False)
-    is_environment_ready = True
+    # # Boolean (True/False)
+    # is_environment_ready = True
 
-    # --- THE CHALLENGE ---
-    # We use an 'f' before the quotes to "format" the string.
-    #It lets us drop variables into the string using { }
-    print(f"{coder_name} has {logic_points} points and an accuracy of {accuracy_percent}%")
-    print(f"Is the environment ready? {is_environment_ready}")
+    # # --- THE CHALLENGE ---
+    # # We use an 'f' before the quotes to "format" the string.
+    # #It lets us drop variables into the string using { }
+    # print(f"{coder_name} has {logic_points} points and an accuracy of {accuracy_percent}%")
+    # print(f"Is the environment ready? {is_environment_ready}")
 
 
 
@@ -51,7 +51,7 @@ for tool in tools:
 
     # --- INTERACTIVE INPUT ---
 
-    # The input() command pasues the program and waits for the user to type something.
+    # The input() command pauses the program and waits for the user to type something.
     favorite_hobby = input("Enter a hobby you're currently into: ")
 
     # Now we use that variable in a sentance
@@ -59,4 +59,4 @@ for tool in tools:
     
     # You can even 'concatenate' strings with a plus sign
     print("Roadmap Lesson 1: " + "Complete.")
-    
+
